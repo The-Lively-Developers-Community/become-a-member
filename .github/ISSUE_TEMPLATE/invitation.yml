@@ -1,0 +1,32 @@
+name: GitHub Invitation
+description: I want to join the awesome GitHub organisation
+title: "Invite me to the GitHub Community Organization"
+labels: [invite me to the organisation]
+assignees:
+  - KendallDoesCoding
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Insert your name here
+      placeholder: KendallDoesCoding
+    validations:
+      required: true
+  - type: input
+    id: discordname
+    attributes:
+      label: Discord Username (if applicable)
+      description: Insert your Discord username here
+      placeholder: "Kendall#9903"
+    validations:
+      required: false
+    validations:
+      required: false
+  - type: textarea
+    id: Additional
+    attributes:
+      label: Additional Context
+      description: Where did you learn about our organization? What do you like about this community/Why do you want to join?
+    validations:
+      required: false
