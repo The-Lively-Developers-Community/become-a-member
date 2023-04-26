@@ -13,6 +13,6 @@ jobs:
           organization: The-Lively-Developers-Community
           label: invite me to the organisation
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: '<b>Invitation sent to join the GitHub Organisation. Welcome to the community 🎉</b><br>ublic so it appears on your GitHub profile for everyone else to see. You can do this by finding your name in the GitHub organisation list and change the dropdown to public https://github.com/orgs/The-Lively-Developers-Community/people<br><br>Tips for practising:<br>'
+          comment: "<b>Invitation sent to join the GitHub Organisation. Welcome to the community 🎉</b><br>Don't forget to make it public so it appears on your GitHub profile for everyone else to see. You can do this by finding your name in the GitHub organisation list and change the dropdown to public https://github.com/orgs/The-Lively-Developers-Community/people<br><br><b>HAPPY CODING</b><br>"
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
